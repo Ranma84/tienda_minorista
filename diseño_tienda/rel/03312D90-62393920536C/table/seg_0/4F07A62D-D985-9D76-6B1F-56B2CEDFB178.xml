@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4F07A62D-D985-9D76-6B1F-56B2CEDFB178" schemaObject="F3F7FDC9-26F6-DD98-EB76-F518113CF172" name="USUARIO">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>TIENDA_MINORISTA</sourceObjSchema>
+<sourceObjName>USUARIO</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:29 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIO" id="EAD09FA8-5E5F-F82A-EEFC-675020E9B91E">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>USUARIO</sourceObjSchema>
+<sourceObjName>USUARIO</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRES" id="12D26FC3-88E0-ECF4-3633-4E42074B648B">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>USUARIO</sourceObjSchema>
+<sourceObjName>NOMBRES</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDOS" id="1B08CF17-3CBA-9E89-50B0-64520FB811D8">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>USUARIO</sourceObjSchema>
+<sourceObjName>APELLIDOS</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="B16AE0AF-CEBD-2606-B536-62D25A62576A">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>USUARIO</sourceObjSchema>
+<sourceObjName>DIRECCION</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUDAD" id="5DA1644A-F818-F454-0CE7-C5B3F0C8CA5D">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>USUARIO</sourceObjSchema>
+<sourceObjName>CIUDAD</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_DE_MODIFICACION" id="C8E27930-B164-48FD-D590-A42C09B83389">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>USUARIO</sourceObjSchema>
+<sourceObjName>FECHA_DE_MODIFICACION</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F3E6A213-2BB5-40B3-3661-1F3A48156652" schemaObject="F3F7FDC9-26F6-DD98-EB76-F518113CF172" name="USUARIO_PK">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>TIENDA_MINORISTA</sourceObjSchema>
+<sourceObjName>SYS_C008370</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:33 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAD09FA8-5E5F-F82A-EEFC-675020E9B91E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

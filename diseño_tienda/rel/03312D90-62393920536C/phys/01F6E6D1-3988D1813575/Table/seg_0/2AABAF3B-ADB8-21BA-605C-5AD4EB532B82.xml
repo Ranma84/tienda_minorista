@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PROVEEDOR" directorySegmentName="seg_0" id="2AABAF3B-ADB8-21BA-605C-5AD4EB532B82">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:29 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<schemaObject>F3F7FDC9-26F6-DD98-EB76-F518113CF172</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>DCA9268E-6B71-EA77-46ED-CC7667970436</segment>
+<tableSpace>4DAA71A1-90FA-D439-7C81-C4C587A12BFC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_PROVEEDOR" id="38B0894F-A216-B496-13C2-4EDE68B83A59">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE2" id="5ACDAFB6-22F8-6C67-0B03-A2511678D729">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMB_EMPRESA" id="5E2F1E72-FB09-F002-0E2D-DEE9684FFD56">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXTRANJEROS_SN" id="64BC0253-D223-1EFB-A64A-E85B4754EBCC">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORREO" id="670453A1-679F-2CEE-637A-C159152F6D98">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAIS" id="7384373D-4CEF-FACF-9162-BFFA06ED39B6">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEFONO" id="745A43B7-30CB-793A-2038-FF19527145F7">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECCION" id="98F180D9-F476-78B6-60EA-FC8F3DD71B55">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE1" id="A7F7C2E9-3594-F1D1-3A91-E7390D4934C7">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROVINCIA" id="BE937F46-C559-24E4-142F-0A61B88E2FA4">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO2" id="C8588839-62C9-995A-C148-F3D1D42CC7FB">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CIUDAD" id="E2B8DDCA-BB20-582C-EDB9-BE39C96046DF">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO1" id="E31ECA07-51CE-6714-D9B1-14F67A639E08">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PROVEEDOR_PK" id="07D0CE31-79FA-4E4B-C772-D2310643355B">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:34 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<schemaObject>F3F7FDC9-26F6-DD98-EB76-F518113CF172</schemaObject>
+<segment>3CCB7778-9748-249A-BAD8-C1E232BFABF5</segment>
+<tableSpace>4DAA71A1-90FA-D439-7C81-C4C587A12BFC</tableSpace>
+<indexSegment>3CCB7778-9748-249A-BAD8-C1E232BFABF5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

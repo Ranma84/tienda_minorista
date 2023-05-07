@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="03312D90-8A60-C815-B462-62393920536C" mainViewID="AE209C73-2D3D-9A7B-DAD0-07190D102DF7">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:03:54 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>Tienda_minorista</connName>
+<connUser>tienda_minorista</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

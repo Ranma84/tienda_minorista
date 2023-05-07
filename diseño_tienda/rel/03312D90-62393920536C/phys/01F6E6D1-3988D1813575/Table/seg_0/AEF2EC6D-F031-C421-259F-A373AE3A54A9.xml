@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DEVOLUCION" directorySegmentName="seg_0" id="AEF2EC6D-F031-C421-259F-A373AE3A54A9">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:29 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<schemaObject>F3F7FDC9-26F6-DD98-EB76-F518113CF172</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>DCA9268E-6B71-EA77-46ED-CC7667970436</segment>
+<tableSpace>4DAA71A1-90FA-D439-7C81-C4C587A12BFC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DETALLE_PRODUCTO" id="081291CB-EC36-14AE-41A0-F94442243621">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_DEVOLUCION" id="1DD8DEEB-25D5-E8C4-C4F7-99959025F05D">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECH_HORA_DEVOLUCION" id="C629DF1C-5A86-A235-6154-570541EA870B">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_FACTURA" id="E53E81FD-1C0D-1AFB-9608-0FDDED7B683F">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="EF204B0C-95A9-DA91-A196-E7D9573A0376">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION_DAÑO" id="F99ED159-CE60-920C-B859-09DDF56A00E5">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ID_FACTURAS" id="765D48BC-00E9-4A27-5A42-FBAA171668C6">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:35 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEVOLUCION_PK" id="94B1E071-BBB8-D81C-F220-2BFCB9F30E65">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:34 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<schemaObject>F3F7FDC9-26F6-DD98-EB76-F518113CF172</schemaObject>
+<segment>3CCB7778-9748-249A-BAD8-C1E232BFABF5</segment>
+<tableSpace>4DAA71A1-90FA-D439-7C81-C4C587A12BFC</tableSpace>
+<indexSegment>3CCB7778-9748-249A-BAD8-C1E232BFABF5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

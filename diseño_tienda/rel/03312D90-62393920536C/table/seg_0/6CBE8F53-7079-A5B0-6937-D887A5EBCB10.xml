@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CBE8F53-7079-A5B0-6937-D887A5EBCB10" schemaObject="F3F7FDC9-26F6-DD98-EB76-F518113CF172" name="DETALLE_FACTURA">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>TIENDA_MINORISTA</sourceObjSchema>
+<sourceObjName>DETALLE_FACTURA</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:29 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_DET_FACTURA" id="E0069B01-EAF1-7229-105D-12EE70FAF71E">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>DETALLE_FACTURA</sourceObjSchema>
+<sourceObjName>ID_DET_FACTURA</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_FACTURA" id="2777E9B0-81E7-3602-BF39-3BE9EF0B210E">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>DETALLE_FACTURA</sourceObjSchema>
+<sourceObjName>ID_FACTURA</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C400B36-DB1F-7466-519A-48C2734E445E" referredColumn="6824160D-BB1B-6918-C257-5B83A2848074"/>
+</associations>
+</Column>
+<Column name="ID_PRODUCTO" id="DB80ED41-EF9E-6D14-A212-11C8C233B3DC">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>DETALLE_FACTURA</sourceObjSchema>
+<sourceObjName>ID_PRODUCTO</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF009161-BC6E-697F-A73C-25FD2595F90A" referredColumn="1C70814D-CC4D-6D6B-55B0-2142872C8535"/>
+</associations>
+</Column>
+<Column name="PRECIO" id="9EA21964-3DA6-2264-BB3B-E76A47699727">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>DETALLE_FACTURA</sourceObjSchema>
+<sourceObjName>PRECIO</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD" id="3D118572-E0F7-F1B8-EAF3-727A4FB60130">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>DETALLE_FACTURA</sourceObjSchema>
+<sourceObjName>CANTIDAD</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR_IVA" id="77C9CB86-15E2-04EC-44F7-FA7111884EDB">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>DETALLE_FACTURA</sourceObjSchema>
+<sourceObjName>VALOR_IVA</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCUENTO" id="5754653E-30DA-531C-BAA5-8585447D6B03">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>DETALLE_FACTURA</sourceObjSchema>
+<sourceObjName>DESCUENTO</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8595447D-89F2-91F2-43B2-B31C11584B09" schemaObject="F3F7FDC9-26F6-DD98-EB76-F518113CF172" name="DETALLE_FACTURA_PK">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>TIENDA_MINORISTA</sourceObjSchema>
+<sourceObjName>SYS_C008422</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:33 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0069B01-EAF1-7229-105D-12EE70FAF71E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A84ACEC0-4DC7-C263-994D-62CBC78D49AB" name="FK_ID_FACTURA">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:35 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2777E9B0-81E7-3602-BF39-3BE9EF0B210E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71262E52-EBC1-DC85-8200-21E8A491BAAD" name="FK_ID_PRODUCTO">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:35 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB80ED41-EF9E-6D14-A212-11C8C233B3DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

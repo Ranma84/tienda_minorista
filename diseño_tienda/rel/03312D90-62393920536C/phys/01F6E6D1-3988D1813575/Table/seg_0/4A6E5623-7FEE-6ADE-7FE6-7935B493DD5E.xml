@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="FACTURA" directorySegmentName="seg_0" id="4A6E5623-7FEE-6ADE-7FE6-7935B493DD5E">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:29 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<schemaObject>F3F7FDC9-26F6-DD98-EB76-F518113CF172</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>DCA9268E-6B71-EA77-46ED-CC7667970436</segment>
+<tableSpace>4DAA71A1-90FA-D439-7C81-C4C587A12BFC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHA_FACTURA" id="0023AE30-32C4-19E8-3AA0-187C8220F447">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="0D60766C-4468-6913-D404-22B02AF2A641">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_FORM_PAGO" id="0F3BF231-B8C7-7D94-57BE-83A214801B3A">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO_FACTURA" id="42FB9647-E549-1915-90EC-A7CA986A4150">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AUTORIZACION" id="4F9AA5F0-4B30-80E3-EDA2-5E156344D853">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USUARIO" id="6319A522-87D2-C98E-19A3-017A9F66097B">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_FACTURA" id="6824160D-BB1B-6918-C257-5B83A2848074">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CEDULA_RUC" id="B785D0E1-0BCF-2963-5CCF-C5C0F89D0C4D">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_COD_CEDULA_RUC" id="1941ACDC-0EF2-6050-055A-091B953CC17B">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:35 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ID_FORM_PAGO" id="1A6A97D6-D820-9778-77ED-93BFC36BE0E8">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:35 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_USUARIO" id="443C7990-B13E-4C65-B54E-CBE5A450770E">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:35 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FACTURA_PK" id="F36FCBA4-36B7-483A-37EF-853875A27F17">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:34 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<schemaObject>F3F7FDC9-26F6-DD98-EB76-F518113CF172</schemaObject>
+<segment>3CCB7778-9748-249A-BAD8-C1E232BFABF5</segment>
+<tableSpace>4DAA71A1-90FA-D439-7C81-C4C587A12BFC</tableSpace>
+<indexSegment>3CCB7778-9748-249A-BAD8-C1E232BFABF5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

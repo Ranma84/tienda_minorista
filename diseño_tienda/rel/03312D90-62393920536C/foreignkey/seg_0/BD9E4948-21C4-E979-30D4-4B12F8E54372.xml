@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BD9E4948-21C4-E979-30D4-4B12F8E54372" containerWithKeyObject="B35C8807-8A17-1703-2381-6440350EA6EA" localFKIndex="FE9E91A7-3135-983B-8823-289376B7D228" name="FK_CEDULA_RUC">
+<sourceConnName>Tienda_minorista</sourceConnName>
+<sourceObjSchema>TIENDA_MINORISTA</sourceObjSchema>
+<sourceObjName>FK_CEDULA_RUC</sourceObjName>
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:35 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<referredTableLongName>TIENDA_MINORISTA.CLIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A3E351A1-DEBE-335E-E700-2C1BD196EE03</referredTableID>
+<keyObject>1A5532B6-A0FA-A712-E0D2-25DAF2400E84</keyObject>
+<referredKeyID>1A5532B6-A0FA-A712-E0D2-25DAF2400E84</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CEDULA_RUC</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

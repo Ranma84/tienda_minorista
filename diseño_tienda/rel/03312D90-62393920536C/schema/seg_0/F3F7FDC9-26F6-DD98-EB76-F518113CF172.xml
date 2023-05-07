@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="TIENDA_MINORISTA" directorySegmentName="seg_0" id="F3F7FDC9-26F6-DD98-EB76-F518113CF172">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:29 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<importedID>20A5FF59-8763-05EA-88A0-B086E47949D4</importedID>
+</SchemaObject>

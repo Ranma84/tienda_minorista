@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CONTACTO" directorySegmentName="seg_0" id="B35C8807-8A17-1703-2381-6440350EA6EA">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:29 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<schemaObject>F3F7FDC9-26F6-DD98-EB76-F518113CF172</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>DCA9268E-6B71-EA77-46ED-CC7667970436</segment>
+<tableSpace>4DAA71A1-90FA-D439-7C81-C4C587A12BFC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_CONTACTO" id="1E1345BD-7F11-4F02-80F9-47A8A2DCB5FA">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_TELEFONO" id="502C5DCB-4836-52B2-89D4-0A72D5D98498">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORREO" id="5CBC0A0B-5456-8562-452E-AEEE417A2332">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO_TELEFONO" id="9FF0D277-82E5-9603-3843-AE9F1EF55671">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CEDULA_RUC" id="A880CC31-2152-3FFF-0FB7-09ED6DD32429">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CEDULA_RUC" id="FE9E91A7-3135-983B-8823-289376B7D228">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:35 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CONTACTO_PK" id="B50FB8DD-E5EA-6D01-BA1D-FEECF0DE8C0E">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:34 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<schemaObject>F3F7FDC9-26F6-DD98-EB76-F518113CF172</schemaObject>
+<segment>3CCB7778-9748-249A-BAD8-C1E232BFABF5</segment>
+<tableSpace>4DAA71A1-90FA-D439-7C81-C4C587A12BFC</tableSpace>
+<indexSegment>3CCB7778-9748-249A-BAD8-C1E232BFABF5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

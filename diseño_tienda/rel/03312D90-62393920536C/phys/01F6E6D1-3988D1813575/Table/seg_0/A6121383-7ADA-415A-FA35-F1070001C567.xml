@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="REGISTRO_COMPRA" directorySegmentName="seg_0" id="A6121383-7ADA-415A-FA35-F1070001C567">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:29 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<schemaObject>F3F7FDC9-26F6-DD98-EB76-F518113CF172</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>DCA9268E-6B71-EA77-46ED-CC7667970436</segment>
+<tableSpace>4DAA71A1-90FA-D439-7C81-C4C587A12BFC</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_PRODUCTO_PROVEEDOR" id="14D7EBC5-134B-6908-AF08-5591FFC0E6E1">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:28:14 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_COMPRA" id="43CEB452-9243-ACD1-02F3-B7BA9166F059">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VALOR_IVA" id="550C84BB-637A-BDFB-7872-949D714EB30D">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANTIDAD" id="892684B6-263F-08B8-0017-676AEF4CB5DF">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_FACTURA_PROVEEDOR" id="90C110E3-9157-900E-2D8C-524DCD7AEF01">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION_DE_COMPRA" id="C5F3E999-9B02-19E5-D382-AC6DEBBC439C">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCUENTO" id="F653DEAB-198F-9C52-0AA7-1927978AF187">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:30 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ID_PRODUCTO_PROVEEDOR" id="C55766DC-56B0-CED3-6EF7-8971DF1986C9">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:28:14 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ID_FAC_PROVEEDOR" id="FE953B13-4B7E-63E7-0773-47B411E7D9AD">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:35 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REGISTRO_COMPRA_PK" id="103F0EE9-6C57-6D45-6354-4189E2FDB604">
+<createdBy>w_elr</createdBy>
+<createdTime>2023-05-07 04:05:34 UTC</createdTime>
+<ownerDesignName>diseño_tienda</ownerDesignName>
+<schemaObject>F3F7FDC9-26F6-DD98-EB76-F518113CF172</schemaObject>
+<segment>3CCB7778-9748-249A-BAD8-C1E232BFABF5</segment>
+<tableSpace>4DAA71A1-90FA-D439-7C81-C4C587A12BFC</tableSpace>
+<indexSegment>3CCB7778-9748-249A-BAD8-C1E232BFABF5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
